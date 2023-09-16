@@ -1,0 +1,6 @@
+version: '2'
+services:
+    server:
+        image: zio-http4s:1
+        ports:
+            - "9000:8080"
